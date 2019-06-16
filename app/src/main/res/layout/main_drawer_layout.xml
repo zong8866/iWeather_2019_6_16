@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--这里嵌入主视图-->
+<include
+    android:id="@+id/main_view_layout"
+    layout="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+<!--这里嵌入抽屉视图-->
+
+    <include
+        layout="@layout/drawer_view"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C6AC4</color>
+    <color name="colorPrimaryDark">#212B36</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="w">#F4F5FA</color>
+    <color name="b">#5C6AC4</color>
+    <color name="g">#47C1BF</color>
+    <color name="p">#9C6ADE</color>
+    <color name="back">#212B36</color>
+
+
+    <!--增加半透明黑色-->
+    <color name="status_bar_color">#30000000</color>
+</resources>
